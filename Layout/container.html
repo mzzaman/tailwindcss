@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Container</title>
+    <meta name="title" content="Tailwind CSS Container">
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+    <div class="container text-center mx-auto my-5">
+        <h1 class="text-2xl font-bold">Tailwind CSS Layout</h1>
+    </div>
+
+
+    <section class="container mx-auto my-5">
+        <h1 class="text-center text-2xl">Tailwind CSS Box Sizing</h1>
+        <div class=" box-border border-4 p-4 bg-blue-200">
+            Box with padding and border included in size
+        </div>
+        <div class="box-content border-4 p-4 bg-green-200 mt-1">
+            Box with size excluding padding and border
+        </div>
+    </section>
+
+
+    <section class="container mx-auto text-center">
+        <h1 class="text-2xl">Tailwind CSS Display</h1>
+        <fieldset class="bg-green-200 my-5 space-y-4 p-4">
+            <h1 class="text-2xl">Tailwind CSS Block Element (block Class)</h1>
+            <span class="block h-12 bg-green-500 rounded-lg">1</span>
+            <span class="block h-12 bg-green-500 rounded-lg">2</span>
+            <span class="block h-12 bg-green-500 rounded-lg">3</span>
+        </fieldset>
+
+        <fieldset class="bg-green-200 my-5 space-y-4 p-4">
+            <h1 class="text-2xl">Tailwind CSS Inline Block Element (inline-block Class)</h1>
+            <span class="inline-block w-32 h-12 bg-green-500 rounded-lg">1</span>
+            <span class="inline-block w-32 h-12 bg-green-500 rounded-lg">2</span>
+            <span class="inline-block w-32 h-12 bg-green-500 rounded-lg">3</span>
+        </fieldset>
+
+        <fieldset class="bg-green-200 my-5 space-y-4 p-4">
+            <h1 class="text-2xl">Tailwind CSS Inline Element (inline Class)</h1>
+            <span class="inline w-32 h-12 bg-green-500 rounded-lg">1</span>
+            <span class="inline w-32 h-12 bg-green-500 rounded-lg">2</span>
+            <span class="inline w-32 h-12 bg-green-500 rounded-lg">3</span>
+        </fieldset>
+
+        <fieldset class=" bg-green-200 my-5 space-y-4 p-4">
+            <h1 class="text-2xl">Tailwind CSS Flex Element (flex Class)</h1>
+            <div class="flex">
+                <span class="flex-1 w-32 h-12 bg-green-500 rounded-lg">1</span>
+                <span class="flex-1 w-32 h-12 bg-green-500 rounded-lg">2</span>
+                <span class="flex-1 w-32 h-12 bg-green-500 rounded-lg">3</span>
+            </div>
+        </fieldset>
+    </section>
+
+
+    <section class="container mx-auto text-center space-y-2">
+        <h1 class="text-5xl">Tailwind CSS Float</h1>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">float-right Class</h2>
+            <img class="float-right p-2"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">float-left Class</h2>
+            <img class="float-left p-2"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">float-left Class</h2>
+            <img class="float-none p-2 mx-auto"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+    </section>
+
+
+    <section class="container mx-auto text-center space-y-2 my-10">
+        <h1 class="text-5xl">Tailwind CSS Clear Classes</h1>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">clear-left Class</h2>
+            <img class="float-left w-32 h-20 p-2"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <img class="float-right p-2"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify clear-left">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">clear-right Class</h2>
+            <img class="float-left p-2 w-32 h-20"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <img class="float-right p-2"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify clear-right">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">clear-both Class</h2>
+            <img class="float-left w-32 h-20 p-2 mx-auto"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <img class="float-right p-2 mx-auto"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify clear-both">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">clear-none Class</h2>
+            <img class="float-left w-32 h-20 p-2 mx-auto"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <img class="float-right p-2 mx-auto"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify clear-none">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+    </section>
+
+
+    <section class="container mx-auto text-center space-y-2 my-10 py-5">
+        <h1 class="text-5xl">Tailwind CSS Object Fit</h1>
+        <figure class="w-full h-full bg-green-300">
+            <h2 class="text-3xl my-5">object-contain Class</h2>
+            <img class="object-contain h-48 w-full"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+        </figure>
+
+
+
+        <figure class="w-full h-full bg-green-300">
+            <h2 class="text-3xl my-5">object-cover Class</h2>
+            <img class="object-cover h-48 w-full"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+        </figure>
+
+
+        <figure class="w-full h-full bg-green-300">
+            <h2 class="text-3xl my-5">object-fill Class</h2>
+            <img class="object-fill h-48 w-full"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+        </figure>
+
+        <figure class="w-full h-full bg-green-300">
+            <h2 class="text-3xl my-5">object-fill Class</h2>
+            <img class="object-none h-48 w-full"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+        </figure>
+
+        <figure class="w-full h-full bg-green-300">
+            <h2 class="text-3xl my-5">object-scale-down Class</h2>
+            <img class="object-scale-down h-48 w-full"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+        </figure>
+
+    </section>
+
+
+    <section class="container mx-auto text-center space-y-4 py-5 ">
+
+        <h1 class="text-5xl">Tailwind CSS Object Position</h1>
+
+        <fieldset class="justify-between grid grid-rows-3 grid-flow-col bg-green-300">
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-left-top</h2>
+                <img title="object-left-top" class="object-none object-left-top w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full ">
+                <h2 class="text-3xl my-5">object-left</h2>
+                <img title="object-left" class="object-none object-left w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-left-bottom</h2>
+                <img title="object-left-bottom" class="object-none object-left-bottom w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-top</h2>
+                <img title="object-top" class="object-none object-top w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-center</h2>
+                <img title="object-center" class="object-none object-center w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-bottom</h2>
+                <img title="object-bottom" class="object-none object-bottom w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-right-top</h2>
+                <img title="object-right-top" class="object-none object-right-top w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-right</h2>
+                <img title="object-right" class="object-none object-right w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full ">
+                <h2 class="text-3xl my-5">object-right-bottom</h2>
+                <img title="object-right-bottom" class="object-none object-right-bottom w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+        </fieldset>
+    </section>
+</body>
+
+</html>
