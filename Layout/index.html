@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Container</title>
+    <meta name="title" content="Tailwind CSS Container">
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+    <div class="container text-center mx-auto my-5">
+        <h1 class="text-2xl font-bold">Tailwind CSS Layout</h1>
+    </div>
+
+
+    <section class="container mx-auto my-5">
+        <h1 class="text-center text-2xl">Tailwind CSS Box Sizing</h1>
+        <div class=" box-border border-4 p-4 bg-blue-200">
+            Box with padding and border included in size
+        </div>
+        <div class="box-content border-4 p-4 bg-green-200 mt-1">
+            Box with size excluding padding and border
+        </div>
+    </section>
+
+
+    <section class="container mx-auto text-center">
+        <h1 class="text-2xl">Tailwind CSS Display</h1>
+        <fieldset class="bg-green-200 my-5 space-y-4 p-4">
+            <h1 class="text-2xl">Tailwind CSS Block Element (block Class)</h1>
+            <span class="block h-12 bg-green-500 rounded-lg">1</span>
+            <span class="block h-12 bg-green-500 rounded-lg">2</span>
+            <span class="block h-12 bg-green-500 rounded-lg">3</span>
+        </fieldset>
+
+        <fieldset class="bg-green-200 my-5 space-y-4 p-4">
+            <h1 class="text-2xl">Tailwind CSS Inline Block Element (inline-block Class)</h1>
+            <span class="inline-block w-32 h-12 bg-green-500 rounded-lg">1</span>
+            <span class="inline-block w-32 h-12 bg-green-500 rounded-lg">2</span>
+            <span class="inline-block w-32 h-12 bg-green-500 rounded-lg">3</span>
+        </fieldset>
+
+        <fieldset class="bg-green-200 my-5 space-y-4 p-4">
+            <h1 class="text-2xl">Tailwind CSS Inline Element (inline Class)</h1>
+            <span class="inline w-32 h-12 bg-green-500 rounded-lg">1</span>
+            <span class="inline w-32 h-12 bg-green-500 rounded-lg">2</span>
+            <span class="inline w-32 h-12 bg-green-500 rounded-lg">3</span>
+        </fieldset>
+
+        <fieldset class=" bg-green-200 my-5 space-y-4 p-4">
+            <h1 class="text-2xl">Tailwind CSS Flex Element (flex Class)</h1>
+            <div class="flex">
+                <span class="flex-1 w-32 h-12 bg-green-500 rounded-lg">1</span>
+                <span class="flex-1 w-32 h-12 bg-green-500 rounded-lg">2</span>
+                <span class="flex-1 w-32 h-12 bg-green-500 rounded-lg">3</span>
+            </div>
+        </fieldset>
+    </section>
+
+
+    <section class="container mx-auto text-center space-y-2">
+        <h1 class="text-5xl">Tailwind CSS Float</h1>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">float-right Class</h2>
+            <img class="float-right p-2"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">float-left Class</h2>
+            <img class="float-left p-2"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">float-left Class</h2>
+            <img class="float-none p-2 mx-auto"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+    </section>
+
+
+    <section class="container mx-auto text-center space-y-2 my-10">
+        <h1 class="text-5xl">Tailwind CSS Clear Classes</h1>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">clear-left Class</h2>
+            <img class="float-left w-32 h-20 p-2"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <img class="float-right p-2"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify clear-left">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">clear-right Class</h2>
+            <img class="float-left p-2 w-32 h-20"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <img class="float-right p-2"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify clear-right">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">clear-both Class</h2>
+            <img class="float-left w-32 h-20 p-2 mx-auto"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <img class="float-right p-2 mx-auto"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify clear-both">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+
+        <fieldset class="mx-10 space-y-2">
+            <h2 class="inline-block p-4 rounded-2xl text-3xl bg-amber-900 text-white my-2">clear-none Class</h2>
+            <img class="float-left w-32 h-20 p-2 mx-auto"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <img class="float-right p-2 mx-auto"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png"
+                alt="Geeks for Geeks">
+            <p class="text-justify clear-none">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+        </fieldset>
+
+    </section>
+
+
+    <section class="container mx-auto text-center space-y-2 my-10 py-5">
+        <h1 class="text-5xl">Tailwind CSS Object Fit</h1>
+        <figure class="w-full h-full bg-green-300">
+            <h2 class="text-3xl my-5">object-contain Class</h2>
+            <img class="object-contain h-48 w-full"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+        </figure>
+
+
+
+        <figure class="w-full h-full bg-green-300">
+            <h2 class="text-3xl my-5">object-cover Class</h2>
+            <img class="object-cover h-48 w-full"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+        </figure>
+
+
+        <figure class="w-full h-full bg-green-300">
+            <h2 class="text-3xl my-5">object-fill Class</h2>
+            <img class="object-fill h-48 w-full"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+        </figure>
+
+        <figure class="w-full h-full bg-green-300">
+            <h2 class="text-3xl my-5">object-fill Class</h2>
+            <img class="object-none h-48 w-full"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+        </figure>
+
+        <figure class="w-full h-full bg-green-300">
+            <h2 class="text-3xl my-5">object-scale-down Class</h2>
+            <img class="object-scale-down h-48 w-full"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+        </figure>
+
+    </section>
+
+
+    <section class="container mx-auto text-center space-y-4 py-5 ">
+
+        <h1 class="text-5xl">Tailwind CSS Object Position</h1>
+
+        <fieldset class="justify-between grid grid-rows-3 grid-flow-col bg-green-300">
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-left-top</h2>
+                <img title="object-left-top" class="object-none object-left-top w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full ">
+                <h2 class="text-3xl my-5">object-left</h2>
+                <img title="object-left" class="object-none object-left w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-left-bottom</h2>
+                <img title="object-left-bottom" class="object-none object-left-bottom w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-top</h2>
+                <img title="object-top" class="object-none object-top w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-center</h2>
+                <img title="object-center" class="object-none object-center w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-bottom</h2>
+                <img title="object-bottom" class="object-none object-bottom w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-right-top</h2>
+                <img title="object-right-top" class="object-none object-right-top w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full">
+                <h2 class="text-3xl my-5">object-right</h2>
+                <img title="object-right" class="object-none object-right w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+
+            <figure class="w-full h-full ">
+                <h2 class="text-3xl my-5">object-right-bottom</h2>
+                <img title="object-right-bottom" class="object-none object-right-bottom w-24 h-24 border-4 "
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20190807114330/GFG115.png">
+            </figure>
+        </fieldset>
+    </section>
+
+
+    <section class="container mx-auto text-center space-y-3">
+        <h1 class="text-5xl mt-3">Tailwind CSS Overflow Classes</h1>
+
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-auto Class</h2>
+            <p class="overflow-auto bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-x-auto Class</h2>
+            <p class="overflow-x-auto bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-y-auto Class</h2>
+            <p class="overflow-y-auto bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-hidden Class</h2>
+            <p class="overflow-hidden bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-x-hidden Class</h2>
+            <p class="overflow-x-hidden bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-y-hidden Class</h2>
+            <p class="overflow-y-hidden bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-visible Class</h2>
+            <p class="overflow-visible bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-x-visible Class</h2>
+            <p class="overflow-x-visible bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-y-visible Class</h2>
+            <p class="overflow-y-visible bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-scroll Class</h2>
+            <p class="overflow-scroll bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-x-scroll Class</h2>
+            <p class="overflow-x-scroll bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+        <article class="my-5">
+            <h2 class="text-3xl mb-3">overflow-y-scroll Class</h2>
+            <p class="overflow-y-scroll bg-green-200 
+                p-4 h-24 text-justify">
+                How many times were you frustrated while
+                looking out for a good collection of
+                programming/algorithm/interview questions?
+                What did you expect and what did you get?
+                This portal has been created to provide
+                well written, well thought and well
+                explained solutions for selected questions.
+                An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming
+                problems in most efficient ways. Apart from
+                GeeksforGeeks, he has worked with DE Shaw
+                and Co. as a software developer and JIIT
+                Noida as an assistant professor. It is a
+                good platform to learn programming. It is
+                an educational website. Prepare for the
+                Recruitment drive of product based companies
+                like Microsoft, Amazon, Adobe etc with a
+                free online placement preparation course
+            </p>
+        </article>
+
+
+    </section>
+
+    <section class="container mx-auto text-center space-y-5">
+        <h1 class="text-5xl">Tailwind CSS Overscroll Behavior</h1>
+
+        <fieldset>
+            <h3 class="text-3xl">overscroll-auto</h3>
+            <div class="flex">
+                <div class="overscroll-contain bg-green-200 p-4 
+                mx-24 w-1/3 text-justify">
+                    This portal has been created to provide well
+                    written, well thought and well explained
+                    solutions for selected questions. An IIT
+                    Roorkee alumnus and founder of GeeksforGeeks.
+                    He loves to solve programming problems in
+                    most efficient ways. Apart from GeeksforGeeks,
+                    he has worked with DE Shaw and Co. as a
+                    software developer and JIIT Noida as an
+                    assistant professor.
+                </div>
+
+                <div class="overscroll-auto overflow-y-scroll 
+                bg-green-400 p-2 w-1/4 h-24">
+                    This is a smaller element that is also
+                    scrollable. The overscroll behavior can
+                    be used to control if the main content
+                    behind would scroll when this element's
+                    vertical boundary is reached.
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h3 class="text-3xl">overscroll-x-auto</h3>
+            <div class="flex">
+                <div class="overscroll-contain bg-green-200 p-4 
+                mx-24 w-1/3 text-justify">
+                    This portal has been created to provide well
+                    written, well thought and well explained
+                    solutions for selected questions. An IIT
+                    Roorkee alumnus and founder of GeeksforGeeks.
+                    He loves to solve programming problems in
+                    most efficient ways. Apart from GeeksforGeeks,
+                    he has worked with DE Shaw and Co. as a
+                    software developer and JIIT Noida as an
+                    assistant professor.
+                </div>
+
+                <div class="overscroll-x-auto overflow-y-scroll 
+                bg-green-400 p-2 w-1/4 h-24">
+                    This is a smaller element that is also
+                    scrollable. The overscroll behavior can
+                    be used to control if the main content
+                    behind would scroll when this element's
+                    vertical boundary is reached.
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h3 class="text-3xl">overscroll-y-auto</h3>
+            <div class="flex">
+                <div class="overscroll-contain bg-green-200 p-4 
+                mx-24 w-1/3 text-justify">
+                    This portal has been created to provide well
+                    written, well thought and well explained
+                    solutions for selected questions. An IIT
+                    Roorkee alumnus and founder of GeeksforGeeks.
+                    He loves to solve programming problems in
+                    most efficient ways. Apart from GeeksforGeeks,
+                    he has worked with DE Shaw and Co. as a
+                    software developer and JIIT Noida as an
+                    assistant professor.
+                </div>
+
+                <div class="overscroll-y-auto overflow-y-scroll 
+                bg-green-400 p-2 w-1/4 h-24">
+                    This is a smaller element that is also
+                    scrollable. The overscroll behavior can
+                    be used to control if the main content
+                    behind would scroll when this element's
+                    vertical boundary is reached.
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h3 class="text-3xl">overscroll-contain</h3>
+            <div class="flex">
+                <div class="overscroll-contain bg-green-200 p-4 
+                mx-24 w-1/3 text-justify">
+                    This portal has been created to provide well
+                    written, well thought and well explained
+                    solutions for selected questions. An IIT
+                    Roorkee alumnus and founder of GeeksforGeeks.
+                    He loves to solve programming problems in
+                    most efficient ways. Apart from GeeksforGeeks,
+                    he has worked with DE Shaw and Co. as a
+                    software developer and JIIT Noida as an
+                    assistant professor.
+                </div>
+
+                <div class="overscroll-contain overflow-y-scroll 
+                bg-green-400 p-2 w-1/4 h-24">
+                    This is a smaller element that is also
+                    scrollable. The overscroll behavior can
+                    be used to control if the main content
+                    behind would scroll when this element's
+                    vertical boundary is reached.
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h3 class="text-3xl">overscroll-x-contain</h3>
+            <div class="flex">
+                <div class="overscroll-contain bg-green-200 p-4 
+                mx-24 w-1/3 text-justify">
+                    This portal has been created to provide well
+                    written, well thought and well explained
+                    solutions for selected questions. An IIT
+                    Roorkee alumnus and founder of GeeksforGeeks.
+                    He loves to solve programming problems in
+                    most efficient ways. Apart from GeeksforGeeks,
+                    he has worked with DE Shaw and Co. as a
+                    software developer and JIIT Noida as an
+                    assistant professor.
+                </div>
+
+                <div class="overscroll-x-contain overflow-y-scroll 
+                bg-green-400 p-2 w-1/4 h-24">
+                    This is a smaller element that is also
+                    scrollable. The overscroll behavior can
+                    be used to control if the main content
+                    behind would scroll when this element's
+                    vertical boundary is reached.
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h3 class="text-3xl">overscroll-y-contain</h3>
+            <div class="flex">
+                <div class="overscroll-contain bg-green-200 p-4 
+                mx-24 w-1/3 text-justify">
+                    This portal has been created to provide well
+                    written, well thought and well explained
+                    solutions for selected questions. An IIT
+                    Roorkee alumnus and founder of GeeksforGeeks.
+                    He loves to solve programming problems in
+                    most efficient ways. Apart from GeeksforGeeks,
+                    he has worked with DE Shaw and Co. as a
+                    software developer and JIIT Noida as an
+                    assistant professor.
+                </div>
+
+                <div class="overscroll-y-contain overflow-y-scroll 
+                bg-green-400 p-2 w-1/4 h-24">
+                    This is a smaller element that is also
+                    scrollable. The overscroll behavior can
+                    be used to control if the main content
+                    behind would scroll when this element's
+                    vertical boundary is reached.
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h3 class="text-3xl">overscroll-none</h3>
+            <div class="flex">
+                <div class="overscroll-contain bg-green-200 p-4 
+                mx-24 w-1/3 text-justify">
+                    This portal has been created to provide well
+                    written, well thought and well explained
+                    solutions for selected questions. An IIT
+                    Roorkee alumnus and founder of GeeksforGeeks.
+                    He loves to solve programming problems in
+                    most efficient ways. Apart from GeeksforGeeks,
+                    he has worked with DE Shaw and Co. as a
+                    software developer and JIIT Noida as an
+                    assistant professor.
+                </div>
+
+                <div class="overscroll-none overflow-y-scroll 
+                bg-green-400 p-2 w-1/4 h-24">
+                    This is a smaller element that is also
+                    scrollable. The overscroll behavior can
+                    be used to control if the main content
+                    behind would scroll when this element's
+                    vertical boundary is reached.
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h3 class="text-3xl">overscroll-x-none</h3>
+            <div class="flex">
+                <div class="overscroll-contain bg-green-200 p-4 
+                mx-24 w-1/3 text-justify">
+                    This portal has been created to provide well
+                    written, well thought and well explained
+                    solutions for selected questions. An IIT
+                    Roorkee alumnus and founder of GeeksforGeeks.
+                    He loves to solve programming problems in
+                    most efficient ways. Apart from GeeksforGeeks,
+                    he has worked with DE Shaw and Co. as a
+                    software developer and JIIT Noida as an
+                    assistant professor.
+                </div>
+
+                <div class="overscroll-x-none overflow-y-scroll 
+                bg-green-400 p-2 w-1/4 h-24">
+                    This is a smaller element that is also
+                    scrollable. The overscroll behavior can
+                    be used to control if the main content
+                    behind would scroll when this element's
+                    vertical boundary is reached.
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h3 class="text-3xl">overscroll-y-none</h3>
+            <div class="flex">
+                <div class="overscroll-contain bg-green-200 p-4 
+                mx-24 w-1/3 text-justify">
+                    This portal has been created to provide well
+                    written, well thought and well explained
+                    solutions for selected questions. An IIT
+                    Roorkee alumnus and founder of GeeksforGeeks.
+                    He loves to solve programming problems in
+                    most efficient ways. Apart from GeeksforGeeks,
+                    he has worked with DE Shaw and Co. as a
+                    software developer and JIIT Noida as an
+                    assistant professor.
+                </div>
+
+                <div class="overscroll-y-none overflow-y-scroll 
+                bg-green-400 p-2 w-1/4 h-24">
+                    This is a smaller element that is also
+                    scrollable. The overscroll behavior can
+                    be used to control if the main content
+                    behind would scroll when this element's
+                    vertical boundary is reached.
+                </div>
+            </div>
+        </fieldset>
+
+
+    </section>
+
+    <section class="container mx-auto text-center space-y-5">
+        <h1 class="text-5xl my-3">Tailwind CSS Position Classes</h1>
+
+        <article>
+            <b>Tailwind CSS Position Static Class</b>
+            <div class="static text-left p-2 m-2 bg-green-200 h-48">
+                <p class="font-bold">Static parent</p>
+
+                <div class=" absolute bottom-0 left-0 p-2 bg-green-500">
+                    <p class="font-semibold text-red-500">Absolute child</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="bg-green-200 h-24 text-justify overflow-auto">
+            <b>Tailwind CSS Position Fixed Class</b>
+            <div class="fixed bg-green-200">
+                <p class=" font-bold text-red-500">Fixed parent</p>
+            </div>
+            <p class="font-semibold ">How many times were you frustrated while looking out
+                for a good collection of programming/algorithm/interview
+                questions? What did you expect and what did you get?
+                This portal has been created to provide well written,
+                well thought and well explained solutions for selected
+                questions. An IIT Roorkee alumnus and founder of
+                GeeksforGeeks. He loves to solve programming problems
+                in most efficient ways. Apart from GeeksforGeeks, he
+                has worked with DE Shaw and Co. as a software developer
+                and JIIT Noida as an assistant professor.It is a good
+                platform to learn programming. It is an educational
+                website. Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe etc with
+                a free online placement preparation course.</p>
+
+        </article>
+
+    </section>
+
+    <section class="container mx-auto text-center space-y-5">
+        <div class="text-green-600 font-bold m-4">
+            <h1 class="text-5xl">Tailwind CSS Top/Right/Bottom/Left</h1>
+        </div>
+        <div class="relative h-48 w-48 bg-green-400 m-4">
+            <div class="absolute inset-0 h-24 w-24 bg-green-800"></div>
+        </div>
+
+        <div class="relative h-48 w-48 bg-green-400 m-4">
+            <div class="absolute inset-x-0 h-24  bg-green-800"></div>
+        </div>
+
+
+        <div class="relative h-48 w-48 bg-green-400 m-4">
+            <div class="absolute inset-y-0 w-24 bg-green-800"></div>
+        </div>
+    </section>
+
+    <section class="container mx-auto text-center space-y-5 my-5">
+        <h1 class="text-5xl">Tailwind CSS Visibility</h1>
+        <div class="flex flex-row justify-evenly">
+            <div class="bg-green-700 w-24 h-12">1</div>
+            <div class="invisible w-24 h-12">2</div>
+            <div class="bg-red-500 w-24 h-12">3</div>
+            <div class="bg-green-400 w-24 h-12">4</div>
+        </div>
+
+
+        <div class="flex flex-row justify-evenly">
+            <div class="bg-green-700 w-24 h-12">1</div>
+            <div class="visible bg-green-600 w-24 h-12">2</div>
+            <div class="bg-red-500 w-24 h-12">3</div>
+            <div class="bg-green-400 w-24 h-12">4</div>
+        </div>
+    </section>
+
+    <section class="container mx-auto text-center space-y-5 my-5">
+        <h1 class="text-5xl">Tailwind CSS Z-index</h1>
+        <div class="flex-column">
+            <div class="relative z-0 w-full h-12 bg-green-400" style="top: 32px;">1</div>
+            <div class="relative z-10 w-full h-12 bg-yellow-400">2</div>
+            <div class="relative z-20 w-full h-12 bg-black text-white">3</div>
+            <div class="relative z-30 w-full h-12 bg-teal-400">4</div>
+            <div class="relative z-40 w-full h-12 bg-teal-500">5</div>
+            <div class="relative z-50 w-full h-12 bg-teal-600">6</div>
+            <div class="relative z-auto w-full h-12 bg-teal-800">Auto</div>
+        </div>
+
+        <div class="flex-column">
+            <div class="relative z-0 w-full h-12 bg-green-400">1</div>
+            <div class="relative z-10 w-full h-12 bg-yellow-400" style="top: 32px;">2</div>
+            <div class="relative z-20 w-full h-12 bg-black text-white">3</div>
+            <div class="relative z-30 w-full h-12 bg-teal-400">4</div>
+            <div class="relative z-40 w-full h-12 bg-teal-500">5</div>
+            <div class="relative z-50 w-full h-12 bg-teal-600">6</div>
+            <div class="relative z-auto w-full h-12 bg-teal-800">Auto</div>
+        </div>
+
+        <div class="flex-column">
+            <div class="relative z-0 w-full h-12 bg-green-400">1</div>
+            <div class="relative z-10 w-full h-12 bg-yellow-400">2</div>
+            <div class="relative z-20 w-full h-12 bg-black text-white" style="top: 32px;">3</div>
+            <div class="relative z-30 w-full h-12 bg-teal-400">4</div>
+            <div class="relative z-40 w-full h-12 bg-teal-500">5</div>
+            <div class="relative z-50 w-full h-12 bg-teal-600">6</div>
+            <div class="relative z-auto w-full h-12 bg-teal-800">Auto</div>
+        </div>
+
+        <div class="flex-column">
+            <div class="relative z-0 w-full h-12 bg-green-400">1</div>
+            <div class="relative z-10 w-full h-12 bg-yellow-400">2</div>
+            <div class="relative z-20 w-full h-12 bg-black text-white">3</div>
+            <div class="relative z-30 w-full h-12 bg-teal-400" style="top: 32px;">4</div>
+            <div class="relative z-40 w-full h-12 bg-teal-500">5</div>
+            <div class="relative z-50 w-full h-12 bg-teal-600">6</div>
+            <div class="relative z-auto w-full h-12 bg-teal-800">Auto</div>
+        </div>
+
+        <div class="flex-column">
+            <div class="relative z-0 w-full h-12 bg-green-400">1</div>
+            <div class="relative z-10 w-full h-12 bg-yellow-400">2</div>
+            <div class="relative z-20 w-full h-12 bg-black text-white">3</div>
+            <div class="relative z-30 w-full h-12 bg-teal-400">4</div>
+            <div class="relative z-40 w-full h-12 bg-teal-500" style="top: 32px;">5</div>
+            <div class="relative z-50 w-full h-12 bg-teal-600">6</div>
+            <div class="relative z-auto w-full h-12 bg-teal-800">Auto</div>
+        </div>
+
+        <div class="flex-column">
+            <div class="relative z-0 w-full h-12 bg-green-400">1</div>
+            <div class="relative z-10 w-full h-12 bg-yellow-400">2</div>
+            <div class="relative z-20 w-full h-12 bg-black text-white">3</div>
+            <div class="relative z-30 w-full h-12 bg-teal-400">4</div>
+            <div class="relative z-40 w-full h-12 bg-teal-500">5</div>
+            <div class="relative z-50 w-full h-12 bg-teal-600" style="top: 32px;">6</div>
+            <div class="relative z-auto w-full h-12 bg-teal-800">Auto</div>
+        </div>
+
+        <!-- <div class="flex-column">
+            <div class="relative z-0 w-full h-12 bg-green-400">1</div>
+            <div class="relative z-10 w-full h-12 bg-yellow-400">2</div>
+            <div class="relative z-20 w-full h-12 bg-black text-white">3</div>
+            <div class="relative z-30 w-full h-12 bg-teal-400">4</div>
+            <div class="relative z-40 w-full h-12 bg-teal-500">5</div>
+            <div class="relative z-50 w-full h-12 bg-teal-600">6</div>
+            <div class="relative z-auto w-full h-12 bg-teal-800" style="top: 32px;">Auto</div>
+        </div> -->
+
+
+    </section>
+
+</body>
+
+</html>
