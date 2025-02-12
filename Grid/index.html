@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Container</title>
+    <meta name="title" content="Tailwind CSS Container">
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+    <div class="container mx-auto text-center my-5">
+        <h1 class="text-5xl font-bold text-green-600">Tailwind CSS Grid Template Columns</h1>
+    </div>
+
+
+    <h2 class="text-3xl text-center font-semibold text-teal-600">Tailwind CSS grid-cols Class</h2>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <div class="container mx-auto grid grid-cols-3 justify-evenly gap-1">
+            <div class="bg-green-700 w-26 h-12">1</div>
+            <div class="bg-green-500 w-26 h-12">2</div>
+            <div class="bg-green-300 w-26 h-12">3</div>
+            <div class="bg-green-700 w-26 h-12">4</div>
+            <div class="bg-green-500 w-26 h-12">5</div>
+            <div class="bg-green-300 w-26 h-12">6</div>
+        </div>
+    </section>
+
+
+
+    <h2 class="text-3xl text-center font-semibold text-teal-600">Tailwind CSS Grid Column Start / End</h2>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <div class="container mx-auto grid grid-cols-3 justify-evenly gap-1">
+            <div class="bg-green-700 h-12 rounded-lg">1</div>
+            <div class="bg-green-500 h-12 rounded-lg">2</div>
+            <div class="bg-green-300 h-12 rounded-lg">3</div>
+            <div class="bg-green-700 h-12 rounded-lg col-span-2">4</div>
+            <div class="bg-green-500 h-12 rounded-lg">5</div>
+            <div class="bg-green-300 h-12 rounded-lg col-span-3">6</div>
+        </div>
+    </section>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <div class="container mx-auto grid grid-cols-4 justify-evenly gap-1">
+            <div class="bg-green-700 h-12 rounded-lg col-start-2 col-span-2">1</div>
+            <div class="bg-green-500 h-12 rounded-lg">2</div>
+            <div class="bg-green-300 h-12 rounded-lg">3</div>
+            <div class="bg-green-700 h-12 rounded-lg col-start-2 col-end-4">4</div>
+            <div class="bg-green-500 h-12 rounded-lg">5</div>
+            <div class="bg-green-300 h-12 rounded-lg">6</div>
+            <div class="bg-green-700 h-12 rounded-lg">7</div>
+            <div class="bg-green-500 h-12 rounded-lg col-start-2 col-end-4">8</div>
+            <div class="bg-green-300 h-12 rounded-lg col-start-1 col-end-5">9</div>
+            <div class="bg-green-700 h-12 rounded-lg">10</div>
+            <div class="bg-green-500 h-12 rounded-lg">11</div>
+            <div class="bg-green-300 h-12 rounded-lg ">12</div>
+        </div>
+    </section>
+
+
+    <h2 class="text-3xl text-center font-semibold text-teal-600">Tailwind CSS grid-rows Class</h2>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <div class="container mx-auto grid grid-rows-3 grid-flow-col">
+            <div class="bg-green-700 h-12 rounded-lg m-4">1</div>
+            <div class="bg-green-500 h-12 rounded-lg m-4">2</div>
+            <div class="bg-green-300 h-12 rounded-lg m-4">3</div>
+            <div class="bg-green-700 h-12 rounded-lg m-4">4</div>
+            <div class="bg-green-500 h-12 rounded-lg m-4">5</div>
+            <div class="bg-green-300 h-12 rounded-lg m-4">6</div>
+        </div>
+    </section>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <div class="container mx-auto grid grid-rows-2 grid-flow-col">
+            <div class="bg-green-700 h-12 rounded-lg m-4">1</div>
+            <div class="bg-green-500 h-12 rounded-lg m-4">2</div>
+            <div class="bg-green-300 h-12 rounded-lg m-4">3</div>
+            <div class="bg-green-700 h-12 rounded-lg m-4">4</div>
+            <div class="bg-green-500 h-12 rounded-lg m-4">5</div>
+            <div class="bg-green-300 h-12 rounded-lg m-4">6</div>
+        </div>
+    </section>
+
+
+    <h2 class="text-3xl text-center font-semibold text-teal-600">Tailwind CSS Grid Row Start / End</h2>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <div class="container mx-auto grid grid-rows-3 grid-flow-col gap-1">
+            <div class="bg-green-700 rounded-lg">1</div>
+            <div class="bg-green-500 rounded-lg">2</div>
+            <div class="bg-green-300 rounded-lg">3</div>
+            <div class="bg-green-700 rounded-lg row-span-2">4</div>
+            <div class="bg-green-500 rounded-lg">5</div>
+            <div class="bg-green-300 rounded-lg row-span-3">6</div>
+        </div>
+    </section>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <div class="container mx-auto grid grid-rows-4 grid-flow-col gap-1">
+            <div class="bg-green-500 rounded-lg row-start-2 row-span-2">1</div>
+            <div class="bg-green-300 rounded-lg">2</div>
+            <div class="bg-green-300 rounded-lg">3</div>
+            <div class="bg-green-500 rounded-lg row-start-2 col-end-4">4</div>
+            <div class="bg-green-300 rounded-lg">5</div>
+            <div class="bg-green-300 rounded-lg ">6</div>
+            <div class="bg-green-300 rounded-lg">7</div>
+            <div class="bg-green-500 rounded-lg row-start-2 row-span-3">8</div>
+        </div>
+    </section>
+
+    <h2 class="text-3xl text-center font-semibold text-teal-600">Tailwind CSS Grid Auto Flow</h2>
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS grid-flow-row Class</h2>
+        <div class="container mx-auto grid  grid-flow-row gap-1">
+            <div class="bg-green-700 rounded-lg">1</div>
+            <div class="bg-green-500 rounded-lg">2</div>
+            <div class="bg-green-300 rounded-lg">3</div>
+            <div class="bg-green-700 rounded-lg">4</div>
+            <div class="bg-green-500 rounded-lg">5</div>
+            <div class="bg-green-300 rounded-lg">6</div>
+        </div>
+    </section>
+
+
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS grid-flow-row-dense Class</h2>
+        <div class="container mx-auto grid  grid-flow-row-dense gap-1">
+            <div class="bg-green-700 rounded-lg">1</div>
+            <div class="bg-green-500 rounded-lg">2</div>
+            <div class="bg-green-300 rounded-lg">3</div>
+            <div class="bg-green-700 rounded-lg">4</div>
+            <div class="bg-green-500 rounded-lg">5</div>
+            <div class="bg-green-300 rounded-lg">6</div>
+        </div>
+    </section>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS grid-flow-col Class</h2>
+        <div class="container mx-auto grid  grid-flow-col gap-1">
+            <div class="bg-green-700 rounded-lg">1</div>
+            <div class="bg-green-500 rounded-lg">2</div>
+            <div class="bg-green-300 rounded-lg">3</div>
+            <div class="bg-green-700 rounded-lg">4</div>
+            <div class="bg-green-500 rounded-lg">5</div>
+            <div class="bg-green-300 rounded-lg">6</div>
+        </div>
+    </section>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS grid-flow-col-dense Class</h2>
+        <div class="container mx-auto grid  grid-flow-col-dense gap-1">
+            <div class="bg-green-700 rounded-lg">1</div>
+            <div class="bg-green-500 rounded-lg">2</div>
+            <div class="bg-green-300 rounded-lg">3</div>
+            <div class="bg-green-700 rounded-lg">4</div>
+            <div class="bg-green-500 rounded-lg">5</div>
+            <div class="bg-green-300 rounded-lg">6</div>
+        </div>
+    </section>
+
+    <h2 class="text-3xl text-center font-semibold text-teal-600">Tailwind CSS Grid Auto Columns</h2>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS Grid Auto Columns Class</h2>
+        <div class="container mx-auto grid grid-rows-2 grid-flow-col gap-4 auto-cols-auto">
+
+            <div class="bg-green-200 p-4">
+                HyperText Markup language
+            </div>
+            <div class="bg-green-200 p-4">
+                Cascading Style Sheet
+            </div>
+            <div class="bg-green-200 p-4">
+                LiveScript Become JavaScript
+            </div>
+            <div class="bg-green-200 p-4">
+                Bootstrap become replacement of CSS
+            </div>
+
+        </div>
+    </section>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS Grid Min Columns Class</h2>
+        <div class="container mx-auto grid grid-rows-2 grid-flow-col gap-4 auto-cols-min">
+
+            <div class="bg-green-200 p-4">
+                HyperText Markup language
+            </div>
+            <div class="bg-green-200 p-4">
+                Cascading Style Sheet
+            </div>
+            <div class="bg-green-200 p-4">
+                LiveScript Become JavaScript
+            </div>
+            <div class="bg-green-200 p-4">
+                Bootstrap become replacement of CSS
+            </div>
+
+        </div>
+    </section>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS Grid Max Columns Class</h2>
+        <div class="container mx-auto grid grid-rows-2 grid-flow-col gap-4 auto-cols-max">
+
+            <div class="bg-green-200 p-4">
+                HyperText Markup language
+            </div>
+            <div class="bg-green-200 p-4">
+                Cascading Style Sheet
+            </div>
+            <div class="bg-green-200 p-4">
+                LiveScript Become JavaScript
+            </div>
+            <div class="bg-green-200 p-4">
+                Bootstrap become replacement of CSS
+            </div>
+
+        </div>
+    </section>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS Grid fr Columns Class</h2>
+        <div class="container mx-auto grid grid-rows-2 grid-flow-col gap-4 auto-cols-fr">
+
+            <div class="bg-green-200 p-4">
+                HyperText Markup language
+            </div>
+            <div class="bg-green-200 p-4">
+                Cascading Style Sheet
+            </div>
+            <div class="bg-green-200 p-4">
+                LiveScript Become JavaScript
+            </div>
+            <div class="bg-green-200 p-4">
+                Bootstrap become replacement of CSS
+            </div>
+
+        </div>
+    </section>
+
+
+    <h2 class="text-3xl text-center font-semibold text-teal-600">Tailwind CSS Grid Auto Rows</h2>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS Grid Auto Rows Class</h2>
+        <div class="container mx-auto grid grid-cols-2 grid-flow-row gap-4 auto-rows-auto">
+
+            <div class="bg-green-200 p-4">
+                HyperText Markup language
+            </div>
+            <div class="bg-green-200 p-4">
+                Cascading Style Sheet
+            </div>
+            <div class="bg-green-200 p-4">
+                LiveScript Become JavaScript
+            </div>
+            <div class="bg-green-200 p-4">
+                Bootstrap become replacement of CSS
+            </div>
+
+        </div>
+    </section>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS Grid Min Rows Class</h2>
+        <div class="container mx-auto grid grid-cols-2 grid-flow-row gap-4 auto-rows-min">
+
+            <div class="bg-green-200 p-4">
+                HyperText Markup language
+            </div>
+            <div class="bg-green-200 p-4">
+                Cascading Style Sheet
+            </div>
+            <div class="bg-green-200 p-4">
+                LiveScript Become JavaScript
+            </div>
+            <div class="bg-green-200 p-4">
+                Bootstrap become replacement of CSS
+            </div>
+
+        </div>
+    </section>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS Grid Max Columns Class</h2>
+        <div class="container mx-auto grid grid-cols-2 grid-flow-row gap-4 auto-rows-max">
+
+            <div class="bg-green-200 p-4">
+                HyperText Markup language
+            </div>
+            <div class="bg-green-200 p-4">
+                Cascading Style Sheet
+            </div>
+            <div class="bg-green-200 p-4">
+                LiveScript Become JavaScript
+            </div>
+            <div class="bg-green-200 p-4">
+                Bootstrap become replacement of CSS
+            </div>
+
+        </div>
+    </section>
+
+    <section class="my-5 bg-amber-100 py-5">
+        <h2 class="text-2xl text-center font-semibold text-teal-600 my-3">Tailwind CSS Grid fr Columns Class</h2>
+        <div class="container mx-auto grid grid-cols-2 grid-flow-row gap-4 auto-rows-fr">
+
+            <div class="bg-green-200 p-4">
+                HyperText Markup language
+            </div>
+            <div class="bg-green-200 p-4">
+                Cascading Style Sheet
+            </div>
+            <div class="bg-green-200 p-4">
+                LiveScript Become JavaScript
+            </div>
+            <div class="bg-green-200 p-4">
+                Bootstrap become replacement of CSS
+            </div>
+
+        </div>
+    </section>
+
+
+    <h2 class="text-3xl text-center font-semibold text-teal-600">Tailwind CSS Gap</h2>
+
+    <section class="p-8">
+        <div class="container mx-auto grid grid-rows-2 grid-flow-col gap-5 text-center">
+            <div class="bg-green-500 rounded-lg m-4 h-12">1</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">2</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">3</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">4</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">5</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">6</div>
+        </div>
+    </section>
+
+    <section class="p-8">
+        <h3 class="text-center text-3xl">Tailwind CSS gap-x-number Class</h3>
+        <div class="container mx-auto grid grid-rows-2 grid-flow-col gap-x-5 text-center">
+            <div class="bg-green-500 rounded-lg m-4 h-12">1</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">2</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">3</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">4</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">5</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">6</div>
+        </div>
+    </section>
+
+    <section class="p-8">
+        <h3 class="text-center text-3xl">Tailwind CSS gap-y-number Class</h3>
+        <div class="container mx-auto grid grid-rows-2 grid-flow-col gap-y-5 text-center">
+            <div class="bg-green-500 rounded-lg m-4 h-12">1</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">2</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">3</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">4</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">5</div>
+            <div class="bg-green-500 rounded-lg m-4 h-12">6</div>
+        </div>
+    </section>
+</body>
+
+</html>
